@@ -1,4 +1,5 @@
 l = [0, 1, 2, 3, 4, 2, 5]
+print(l)
 n = int(input('inserisci un numero da cercare '))
 pos = -1
 
@@ -15,6 +16,7 @@ if(non_trovato):
 else:
 	print('numero trovato in pos ' + str(pos))
 
+print('-' * 30)
 
 # ciclo for (trova ogni occorrenza)
 non_trovato = True
