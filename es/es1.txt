@@ -1,0 +1,9 @@
+1.	scrivi un programma che chiede continuamente una data (anno, mese, giorno) e stampa se
+	la data è sensata. Il programma termina se si digita 0,0,0.
+	
+2.	scrivi un programma che dati due tempi in ore, minuti e secondi vede quale tempo viene
+	prima e calcola la differenza in secondi. 
+
+3. 	scrivi un programma che controlla se un numero è primo
+
+4.	scrivi un programma che fa la scomposizione in numeri primi
