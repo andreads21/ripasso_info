@@ -1,8 +1,3 @@
-0.	(rifare il primo es della volta scorsa) scrivi un programma che chiede 
-	continuamente una data (anno, mese, giorno) e stampa se	la data è sensata. 
-	Il programma termina se si digita 0,0,0. (controlla per ogni mese se la data è 
-	sensata senza considerare i bisestili e controllando che i numeri siano maggiori di 0)
-
 1.	leggere 10 numeri, se il primo è pari contare quanti numeri pari vengono inseriti
 	altrimenti contare quante volte è inserito il numero 0
 	
@@ -15,5 +10,5 @@
 
 4.	inserire da tastiera un numero N, poi inserire per 10 volte un nome e un numero M,
 	stampare un messaggio ogni volta che M è minore di N e alla fine il nome a cui è associato 
-	il massimo M (semza usare le liste)
+	il massimo M (senza usare le liste)
 	
