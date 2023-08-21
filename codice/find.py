@@ -27,3 +27,18 @@ for i in range(len(l)):
 
 if(non_trovato):
 	print('numero non trovato')
+
+
+print('-' * 30)
+pos = -1
+i = 0
+while pos < 0:
+	if l[i] == n:
+		pos = i
+	i += 1
+
+if(pos<0):
+	print('numero non trovato')
+else:
+	print('numero trovato in pos ' + str(pos))
+
