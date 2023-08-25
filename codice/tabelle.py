@@ -1,3 +1,6 @@
+from operator import itemgetter
+from random import randint
+
 N = 4 # numero righe
 M = 5 # numero colonne
 
@@ -49,6 +52,35 @@ print('trasposta')
 # stampa trasposta t (stampa una colonna poi va a capo)
 for j in range(M):
         for i in range(N):
+                print(t[i][j], '', end='')
+        print()
+print()
+
+print('-' * 30)
+# ordina tabella secondo una colonna con itemgetter
+print("matrice casuale")
+t = []
+for i in range(N):
+        t.append([])
+        for j in range(M):
+                t[i].append(randint(0, 10))
+# stampa t (stampa una riga poi va a capo)
+for i in range(N):
+        for j in range(M):
+                print(t[i][j], '', end='')
+        print()
+print()
+print('ordina tabella per prima colonna')
+t.sort(key=itemgetter(0))
+for i in range(N):
+        for j in range(M):
+                print(t[i][j], '', end='')
+        print()
+print()
+print('ordina tabella per seconda colonna')
+t.sort(key=itemgetter(1))
+for i in range(N):
+        for j in range(M):
                 print(t[i][j], '', end='')
         print()
 print()
